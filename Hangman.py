@@ -1,3 +1,4 @@
+import re
 import random
 
 WoordenLijst = ["informatica", "informatiekunde", "spelletje", "aardigheidje", "scholier", "fotografie", "waardebepaling", "specialiteit", "verzekering", "universiteit", "heesterperk"]
@@ -9,3 +10,7 @@ LetterAantal = "." * LengteWoord
 
 print("Het woord heeft " + str(LengteWoord) + " letters.")
 print(LetterAantal)
+
+counter = 0
+while True:
+  LetterInvoer = (input(": "))
