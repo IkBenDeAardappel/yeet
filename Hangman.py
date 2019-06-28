@@ -8,7 +8,7 @@ LengteWoord = len(HetWoord)
 LetterAantal = "-" * LengteWoord
 
 print("Het woord heeft " + str(LengteWoord) + " letters.")
-print(LetterAantal)  
+print(LetterAantal) 
 print("Je hebt 5 kansen.")
 
 counter = 0
@@ -42,6 +42,25 @@ while True:
       print("Je hebt nog 1 kansen.")
     
    elif counter == 5:
+      print("Noob, u is dead.")
+      print('Le word wuz ' + HetWoord)
+      break
+      
+  if len(LetterInvoer) !=1:
+   print("Je moet één letter invoeren")
+   if counter == 1:
+     print("Probeer nog het nog eens.")
+   
+   elif counter == 2:
+     print("Probeer nog het nog eens.")
+  
+   elif counter == 3:
+     print("Probeer nog het nog eens.")
+     
+   elif counter == 4:
+     print("Probeer nog het nog eens.")
+     
+  elif counter == 5:
       print("Noob, u is dead.")
       print('Le word wuz ' + HetWoord)
       break
